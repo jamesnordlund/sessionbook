@@ -1,0 +1,4 @@
+{"type": "user", "sessionId": "sess-bad", "timestamp": "2026-02-07T12:00:00Z", "message": {"role": "user", "content": "First valid line"}}
+{not valid json}
+{}
+{"type": "assistant", "sessionId": "sess-bad", "timestamp": "2026-02-07T12:00:01Z", "requestId": "req-m1", "message": {"role": "assistant", "content": [{"type": "text", "text": "Second valid line"}]}}

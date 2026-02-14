@@ -1,0 +1,4 @@
+{"type": "user", "sessionId": "sess-simple", "timestamp": "2026-02-07T10:00:00Z", "message": {"role": "user", "content": "Hello, how are you?"}}
+{"type": "assistant", "sessionId": "sess-simple", "timestamp": "2026-02-07T10:00:01Z", "requestId": "req-1", "message": {"role": "assistant", "content": [{"type": "text", "text": "I am doing well, thank you!"}]}}
+{"type": "user", "sessionId": "sess-simple", "timestamp": "2026-02-07T10:00:02Z", "message": {"role": "user", "content": "What can you help me with?"}}
+{"type": "assistant", "sessionId": "sess-simple", "timestamp": "2026-02-07T10:00:03Z", "requestId": "req-2", "message": {"role": "assistant", "content": [{"type": "text", "text": "I can help with many things including coding and writing."}]}}

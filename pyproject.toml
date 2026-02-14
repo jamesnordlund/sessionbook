@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sessionbook"
+version = "0.1.0"
+description = "Save Claude Code sessions as self-contained HTML files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "James Nordlund"}]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Documentation",
+]
+dependencies = [
+    "linkify-it-py>=2.0.3",
+    "markdown-it-py>=4.0.0",
+    "pygments>=2.19.2",
+]
+
+[project.scripts]
+sessionbook = "sessionbook.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "bandit>=1.7.0",
+    "coverage>=7.0.0",
+    "types-Pygments>=2.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/jamesnordlund/sessionbook"
+Homepage = "https://github.com/jamesnordlund/sessionbook"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "bandit>=1.7.0",
+    "coverage>=7.0.0",
+    "types-Pygments>=2.0.0",
+]

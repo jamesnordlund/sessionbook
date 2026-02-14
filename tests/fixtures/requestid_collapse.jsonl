@@ -1,0 +1,7 @@
+{"type": "user", "sessionId": "sess-collapse", "timestamp": "2026-02-07T14:00:00Z", "message": {"role": "user", "content": "Explain Python decorators"}}
+{"type": "assistant", "sessionId": "sess-collapse", "timestamp": "2026-02-07T14:00:01Z", "requestId": "req-1", "message": {"role": "assistant", "content": [{"type": "text", "text": "Decorators are a way to modify functions."}]}}
+{"type": "assistant", "sessionId": "sess-collapse", "timestamp": "2026-02-07T14:00:02Z", "requestId": "req-1", "message": {"role": "assistant", "content": [{"type": "text", "text": "They use the @syntax above a function definition."}]}}
+{"type": "assistant", "sessionId": "sess-collapse", "timestamp": "2026-02-07T14:00:03Z", "requestId": "req-1", "message": {"role": "assistant", "content": [{"type": "text", "text": "Here is an example:"}]}}
+{"type": "user", "sessionId": "sess-collapse", "timestamp": "2026-02-07T14:00:04Z", "message": {"role": "user", "content": "Can you show a practical use case?"}}
+{"type": "assistant", "sessionId": "sess-collapse", "timestamp": "2026-02-07T14:00:05Z", "requestId": "req-2", "message": {"role": "assistant", "content": [{"type": "text", "text": "A common use case is logging."}]}}
+{"type": "assistant", "sessionId": "sess-collapse", "timestamp": "2026-02-07T14:00:06Z", "requestId": "req-2", "message": {"role": "assistant", "content": [{"type": "text", "text": "Another is authentication checks."}]}}
